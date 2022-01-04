@@ -234,7 +234,7 @@ footer {
     -ms-align-items: center;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .logo-links {
@@ -576,4 +576,12 @@ div>iframe {
     #projects li:last-of-type {
         margin-bottom: 0;
     }
+}
+
+.project-tech {
+  margin-top: 1em;
+  color: #25A8B0;
+  font-weight: bold;
+  word-spacing: 5px;
+  text-align: center;
 }
